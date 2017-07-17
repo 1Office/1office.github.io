@@ -4,51 +4,10 @@
 <head>
 <title> Qlik Report </title>
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
-
-<style>
-body {
-  padding : 10px ;
-  
-	
-}
-
-#exTab1 .tab-content {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
-}
-
-#exTab2 h3 {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
-}
-
-/* remove border radius for the tab */
-
-#exTab1 .nav-pills > li > a {
-  border-radius: 0;
-}
-
-/* change border radius for the tab , apply corners on top*/
-
-#exTab3 .nav-pills > li > a {
-  border-radius: 4px 4px 0 0 ;
-}
-
-#exTab3 .tab-content {
-  color : white;
-  background-color: white;
-  padding : 5px 15px;
-}
+<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />-->
+<link href="https://1office.channelplay.in/lib/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
 
-
-
-
-
-</style>
 
 </head>
 
@@ -56,23 +15,20 @@ body {
 <body>
 
 <div id="exTab3" class="container"  style="width:100%">	
-<ul  class="nav nav-pills">
-			<li class="active">
-        <a  href="#1b" data-toggle="tab">Budget Dashboard</a>
-			</li>
-			<li><a href="#2b" data-toggle="tab">Mandate Report</a>
-			</li>
+	<ul  class="nav nav-pills">
+		<li class="active"><a  href="#1b" data-toggle="tab">Budget Dashboard</a></li>
+		<li><a href="#2b" data-toggle="tab">Mandate Report</a></li>
 			
-		</ul>
+	</ul>
 
-			<div class="tab-content clearfix">
-			  <div class="tab-pane active" id="1b">
-												 <iframe  src="https://analytics.1viewinsights.com/single/?appid=8df763b5-25ce-4d3c-acad-4f99ff126379&sheet=HHkej&opt=currsel" style="width:100%;height:600px;border:1px solid #cecece" >  </iframe>
+	<div class="tab-content clearfix">
+		<div class="tab-pane active" id="1b">
+			<iframe  src="https://analytics.1viewinsights.com/single/?appid=8df763b5-25ce-4d3c-acad-4f99ff126379&sheet=HHkej&opt=currsel" style="width:100%;height:600px;border:1px solid #cecece" >  </iframe>
 								                                           
-				</div>
-				<div class="tab-pane" id="2b">
-								 <iframe   style="width:100%;height:600px;border:1px solid #cecece" src="https://analytics.1viewinsights.com/single/?appid=f4c8b1d2-aee7-45da-807e-e687bc9cd41e&sheet=tyAxtA&opt=currsel"  > </iframe>
-				</div>
+		</div>
+		<div class="tab-pane" id="2b">
+			<iframe   style="width:100%;height:600px;border:1px solid #cecece" src="https://analytics.1viewinsights.com/single/?appid=f4c8b1d2-aee7-45da-807e-e687bc9cd41e&sheet=tyAxtA&opt=currsel"  > </iframe>
+		</div>
        	</div>
   </div>
 
